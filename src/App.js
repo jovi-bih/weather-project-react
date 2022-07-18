@@ -9,20 +9,19 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York" />
         <footer>
-          This project was coded by {""}
-          <a
-            href="https://github.com/jovi-bih/react-weather-app"
-            target="_blank"
-          >
-            Bih Jovi
-          </a>
-          {""}
-          and is {""}
+          This project was coded by Bih Jovi and is {""}
           <a
             href="https://github.com/jovi-bih/react-weather-app"
             target="_blank"
           >
             open-sourced on GitHub
+          </a>
+          {""} and {""}
+          <a
+            href="https://github.com/jovi-bih/react-weather-app"
+            target="_blank"
+          >
+            hosted on Netlify.
           </a>
         </footer>
       </div>
